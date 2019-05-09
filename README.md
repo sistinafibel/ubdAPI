@@ -1,7 +1,10 @@
 UBD 계산 API
 ==================
+![IMAGE ALT TEXT](https://user-images.githubusercontent.com/36251104/57471183-8ced5a80-72c5-11e9-81c1-2423f64ae639.jpg)
 UBD를 계산해주는 API 입니다.<br>
-일반 UDB(172212) / 간소화UDB (170000) / UDB2 (300억)을 지원합니다.<br>
+일반 UDB / 간소화UDB / UDB2를 지원합니다.<br><br>
+
+the Unit of Box office Dealings
 
 바로사용하기
 -----------
