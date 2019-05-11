@@ -20,7 +20,7 @@ WEB API (GET) :: http://211.239.124.243:19922/ubd?price=수치&type=타입 <br>
 
 로컬 호출예제
 --------
-JSON : http://127.0.0.1:3080/ubd?price=1000000&type=ubds
+JSON : http://127.0.0.1:3081/ubd?price=1000000&type=ubds
 
 요청변수
 --------
