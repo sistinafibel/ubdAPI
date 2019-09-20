@@ -2,7 +2,7 @@ UBD 계산 API
 ==================
 ![IMAGE ALT TEXT](https://user-images.githubusercontent.com/36251104/57471183-8ced5a80-72c5-11e9-81c1-2423f64ae639.jpg)
 UBD를 계산해주는 API 입니다.<br>
-일반 UDB / 간소화UDB / UDB2를 지원합니다.<br><br>
+일반 UBD / 간소화UBD / UBD2를 지원합니다.<br><br>
 
 the Unit of Box office Dealings
 
@@ -43,7 +43,7 @@ JSON : http://127.0.0.1:3081/ubd?price=1000000&type=ubds
 --------  
 | RetrunName | 설명 | 결과 |
 | ------ | ------ | ------ |
-| ubd | UDB수치를 리턴합니다. | ex) 1복동 |
+| ubd | UBD수치를 리턴합니다. | ex) 1복동 |
 | tickets | 사용자가 보낸 티켓수치를 리턴합니다. | 사용자 price 값 |
 | type | 이용자가 요청한 타입을 리턴합니다. | 사용자 Type값 |
 
