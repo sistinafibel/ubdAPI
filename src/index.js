@@ -1,14 +1,14 @@
-var express = require('express');
-var ver = "2019.05.10A01";
-var app = express();
+const express = require('express');
+const ver = "2019.05.10A01";
+const app = express();
 
 /*
     * 엄복동 계산기
     * 술 한잔 마셨습니다... API가 잘 안되도 좋습니다. 하지만 UDB 하나만 기억해주세요.
 */
 
-var userCheckSuccess = 0;
-var userCheckFail = 0;
+const userCheckSuccess = 0;
+const userCheckFail = 0;
 
 function totalLog(data){
     if (data == "success"){
@@ -66,7 +66,7 @@ app.get('/ubd', function(req, res) {
         }
     }
 
-    var jsonObject = {
+    const jsonObject = {
         "ubd" : botReterun ,
         "tickets" : userKeyword,
         "type" : type
