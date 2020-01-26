@@ -10,7 +10,7 @@ const app = express();
 const userCheckSuccess = 0;
 const userCheckFail = 0;
 
-function totalLog(data){
+let totalLog = (data) => {
     if (data == "success"){
         userCheckSuccess += 1;
     }else{
@@ -19,7 +19,7 @@ function totalLog(data){
     console.log(`*** [totalLog] Success : ${userCheckSuccess} / Fail : ${userCheckFail} / Total : ${userCheckSuccess+userCheckFail}`);  
 }
 
-function userLog(keyword , type){
+let userLog = (keyword , type) => {
     console.log(`*** [userLog] FailKeyword : ${keyword} / type : ${type}`);
     totalLog('fail');
     let errorcode = "UDB 수치가 아닌것 같아요. 상세 명령어는 help를 입력해주세요.";
@@ -27,7 +27,7 @@ function userLog(keyword , type){
 }
 
 
-app.get('/ubd', function(req, res) {
+app.get('/ubd', (req, res) => {
     let userKeyword = req.query.price;
     let type = req.query.type;
 
@@ -79,7 +79,7 @@ app.get('/ubd', function(req, res) {
 });
 
 
-app.listen(3081, function() {
+app.listen(3081, () => {
 
     console.log("*  Uhm Bok-Dong 계산 API");
     console.log("*  버전 : 1.0 ver ( "+ver+" )");
