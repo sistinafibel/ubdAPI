@@ -1,5 +1,8 @@
 UBD 계산 API
 ==================
+![b1](https://img.shields.io/github/license/sistinafibel/ubdAPI?style=flat-square)
+![b2](https://img.shields.io/github/stars/sistinafibel/ubdAPI?style=flat-square)
+
 ![IMAGE ALT TEXT](https://user-images.githubusercontent.com/36251104/57471183-8ced5a80-72c5-11e9-81c1-2423f64ae639.jpg)
 UBD를 계산해주는 API 입니다.<br>
 일반 UBD / 간소화UBD / UBD2를 지원합니다.<br><br>
