@@ -8,6 +8,7 @@ UBD를 계산해주는 API 입니다.<br>
 일반 UBD / 간소화UBD / UBD2를 지원합니다.<br><br>
 
 the Unit of Box office Dealings
+⚡️ https://www.npmjs.com/package/ubd
 
 바로사용하기
 -----------
@@ -21,30 +22,22 @@ the Unit of Box office Dealings
 로컬 호출예제
 --------
 
-요청변수
---------
-| RetrunName | 설명 | 파라미터 |
-| ------ | ------ | ------ |
-| price | 사용자가 입력하는 티켓수량 | 정수 숫자형 (ex) 170000 |
-| type | 변환타입 | ubd , ubds , ubd2 |
+```
+import ubdAPI from 'ubd';
 
+console.log(ubdAPI.ubd(1000000));
+console.log(ubdAPI.ubds(100000));
+console.log(ubdAPI.ubd2(100000));
+
+```
 
 변환타입
 --------
 | Type | 설명 | 수치 |
 | ------ | ------ |  ------ |
-| ubd | UBD 기본 타입입니다. 아무 타입도 없을경우 이 타입을 기본으로 사용합니다. | 172,212 |
+| ubd | UBD 기본 타입입니다. | 172,212 |
 | ubds | 간소화된 UBD입니다. | 170,000 |
 | ubd2 | UBD Squared 타입입니다. | 300억 |
-
-
-출력결과
---------  
-| RetrunName | 설명 | 결과 |
-| ------ | ------ | ------ |
-| ubd | UBD수치를 리턴합니다. | ex) 1복동 |
-| tickets | 사용자가 보낸 티켓수치를 리턴합니다. | 사용자 price 값 |
-| type | 이용자가 요청한 타입을 리턴합니다. | 사용자 Type값 |
 
 
 여담
@@ -55,3 +48,11 @@ the Unit of Box office Dealings
 밤낮으로 고민하고 개발했습니다..최선을 다했고 열심히 했습니다.<br>
 진심이 느껴지길 바랍니다. 고맙습니다..
 
+------
+
+여담2
+--------
+
+🚀 2021.4.30 추가
+엄복동 영화 나오고 node 공부할때 별 생각 없이 만들어둔 패키지가 가장 스타수가 높은거 보고<br>
+착잡한 마음에 (쪽팔려서) express 추가된 코드를 걷어내고 npm에 배포로 올려놨습니다.<br>다른 레포도 많이 사랑해주세요.
