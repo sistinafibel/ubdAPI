@@ -11,19 +11,15 @@ the Unit of Box office Dealings
 
 바로사용하기
 -----------
-WEB API (GET) :: http://211.239.124.243:19922/ubd?price=수치&type=타입 <br>
-예제 :: http://211.239.124.243:19922/ubd?price=10000&type=ubds <br>
 
 실행방법
 --------
 <pre><code>#node 설치후
-> npm install
-> node src/index.js
+> npm install ubd
 </code></pre>
 
 로컬 호출예제
 --------
-JSON : http://127.0.0.1:3081/ubd?price=1000000&type=ubds
 
 요청변수
 --------

@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "experimentalDecorators": true,
+    "target": "es2017", //이 버전으로 트랜스파일
+    "lib": ["es2017", "esnext.asynciterable"],
+    //"typeRoots": ["./node_modules/@types"],
+    //"allowSyntheticDefaultImports": true,
+    //"emitDecoratorMetadata": true,
+    "forceConsistentCasingInFileNames": true,
+    "moduleResolution": "node",
+    "module": "commonjs",
+    "pretty": true,
+    "sourceMap": true,
+    "outDir": "./dist",
+    "allowJs": true, //자바스크립트 파일 컴파일
+    "noEmit": false, //
+    "esModuleInterop": true //타 묘듈도 포함하여 변환하는 설정 esmoduleInterop
+  },
+  "include": ["lib/**/*", ".env"],
+  "exclude": ["node_modules"]
+}
