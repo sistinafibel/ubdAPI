@@ -4,3 +4,4 @@
 tsconfig.json
 examples
 node_modules
+lib
